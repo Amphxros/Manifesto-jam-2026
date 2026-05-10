@@ -1,16 +1,20 @@
+
+using System.Collections.Generic;
 using UnityEngine;
 
 public class YarnManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField] GameManagerSO gameManagerSO;
+
+    [SerializeField] List<YarnListener> yarnListeners = new List<YarnListener>();
+
+    private void Awake()
     {
-        
+        gameManagerSO.yarnManager = this;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void addListener(YarnListener listener)
     {
-        
+        yarnListeners.Add(listener);
     }
 }
