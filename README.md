@@ -1,1 +1,1 @@
-# fuck-capitalism-jam-2026
+# Manifesto Jam 2026-2026
