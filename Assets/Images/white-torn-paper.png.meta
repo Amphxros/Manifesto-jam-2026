@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      white-torn-paper_0: 7744466476723438690
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
